@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+body {
+  font-family: 'Ranchers', cursive;
+  background:linear-gradient(rgb(255, 255, 255), rgb(230, 216, 255), rgb(156, 161, 240));
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.header {
+  font-size: 4rem;
+  background: -webkit-linear-gradient(rgb(0, 255, 221), rgb(0, 195, 255), rgb(56, 6, 194));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 7px 0 7px 0;
+}
